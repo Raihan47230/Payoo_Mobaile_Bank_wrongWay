@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+     <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+     <main class="flex justify-center mt-10">
+          <div class="mockup-phone border-primary">
+               <div class="camera"></div>
+               <div class="display">
+                 <div class="artboard artboard-demo phone-1">
+                    <!--Acount balance -->
+                    <div class="stats shadow">
+                         <div class="stat">
+                           <div class="stat-title">Acount balance</div>
+                           <div id="blalanc" class="stat-value">9400</div>
+                         </div>
+                       </div>
+                         <!--Acount balance end -->
+                         <div class="divider"></div>
+                         <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+                              <form class="card-body">
+                                <div class="form-control">
+                                  <label class="label">
+                                    <span class="label-text">Amount</span>
+                                  </label>
+                                  <input id="input-1" type="text"   placeholder="add money Acount" class="input input-bordered" required />
+                                </div>
+                                <div class="form-control">
+                                  <label class="label">
+                                    <span class="label-text">Pin</span>
+                                  </label>
+                                  <input id="input-2" type="password"  placeholder="Enter your pin number" class="input input-bordered" required />
+                                  
+                                </div>
+                                <div class="form-control mt-6">
+                                  <button id="btn_click" class="btn btn-primary">Login</button>
+                                </div>
+                              </form>
+                            </div>
+                        
+                 </div>
+               </div>
+             </div>
+     </main>
+     <script src="index.js"></script>
+</body>
+</html>
